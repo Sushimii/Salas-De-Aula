@@ -8,7 +8,7 @@ Um simples codigo para calcular a media da quantidade de pessoas em 6 salas, e m
 
 ### 🔹 Recursos inseridos:
 
-Classes/Array/Metodos/Construtores
+Condições/Array/Metodos/Construtores
 
 ### 🔹 Desenvolvedores/Contribuintes:
 
