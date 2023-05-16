@@ -1,4 +1,5 @@
 
+
 #include <iostream>
 using namespace std;
 
@@ -12,17 +13,18 @@ int main()
     //Uma mensagem para o usuario para facilitar na resolução do exercicio
     cout << "Exemplo Sala 1: 35 / Sala 2 :4 / Sala 3: 22 / Sala 4: 20 / Sala 5: 36 / Sala 6: 30"<< endl<< endl;
     
-    //Condição for que será utilziado para adicionar valores ao array 
-    for (int i = 0; i < 6; i++)
+    salas[0] = 35;
+    salas[1]= 4;
+    salas[2] = 22;
+    salas [3] = 20;
+    salas [4] = 36;
+    salas [5] = 30;
+    //Condição for que será utilziado para somar todos os valores
+      for (int i = 0; i < 6; i++)
     {   
-        //Mensagem para o usuario atribuir um valor para variavel 
-        cout << "Digite quantas pessoas tem na sala " << i+1 << ": ";
-        //Valor sendo atribuido a variavel "salas"
-        cin >> salas[i];
         //Todo comando for o valor de salas será somado no valor "pessoas"
         pessoas =pessoas + salas[i];
     }
-    
     //Calculo da media de pessoas 
     double media = pessoas / 6;
     //Tela mostrando o resultado do calculo
